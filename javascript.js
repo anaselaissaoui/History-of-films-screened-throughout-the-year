@@ -89,13 +89,13 @@ function affichage(){
         }
         
         document.getElementById("fillHere").insertAdjacentHTML("afterbegin",
-                                    '<tr class="dataTable" ><td class="text-center text-Secondary align-middle"  ><img src='+posterUrl+' height="200px" ></td>'+
-                                    '<td class="text-center text-Secondary align-middle">'+res.movies[i].title+'</td>'+
-                                    '<td class="text-center text-Secondary align-middle">'+res.movies[i].director+'</td>'+
-                                    '<td class="text-center text-Secondary align-middle">'+res.movies[i].duration+'</td>'+
-                                    '<td class="text-center text-Secondary align-middle">'+res.movies[i].year+'</td>'+
-                                    '<td class=" text-Secondary align-middle">'+festivalsG+'</td>'+
-                                    '<td class=" text-Secondary align-middle">'+actorsC+'</td> </tr>');
+                                    '<tr class="dataTable" ><td class="text-center  text-xs-left text-Secondary align-middle"  ><img src='+posterUrl+' height="200" class="img-fluid" ></td>'+
+                                    '<td class="text-center text-xs-left  text-xs-left text-Secondary align-middle">'+res.movies[i].title+'</td>'+
+                                    '<td class="text-center text-xs-left  text-Secondary align-middle">'+res.movies[i].director+'</td>'+
+                                    '<td class="text-center text-xs-left  text-Secondary align-middle">'+res.movies[i].duration+'</td>'+
+                                    '<td class="text-center text-xs-left  text-Secondary align-middle">'+res.movies[i].year+'</td>'+
+                                    '<td class="  text-xs-left  text-Secondary align-middle">'+festivalsG+'</td>'+
+                                    '<td class=" text-xs-left text-Secondary align-middle">'+actorsC+'</td> </tr>');
 
 }
 }
